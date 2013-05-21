@@ -256,9 +256,6 @@
 #-webkit-web-inspector .pane > .body .info {
   color: #CCC !important;
 }
-#-webkit-web-inspector .sidebar-pane > .body .info {
-  color: #CCC !important;
-}
 #-webkit-web-inspector .script-view,
 #-webkit-web-inspector .text-editor-contents,
 #-webkit-web-inspector .pane.expanded,
