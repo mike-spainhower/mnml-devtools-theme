@@ -132,6 +132,10 @@
   border-right: 4px solid transparent;
   border-top: 8px solid #666666;
 }
+#-webkit-web-inspector .timeline-records-stats {
+  color: #999999 !important;
+  text-shadow: none !important;
+}
 #-webkit-web-inspector .timeline-records-counter {
   color: #666666 !important;
   text-shadow: none !important;
