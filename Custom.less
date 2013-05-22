@@ -627,6 +627,9 @@
 
     .styles-section.read-only {
       background: @selection !important;
+      &, * {
+        cursor: not-allowed !important;
+      }
     }
     
     .styles-section,

@@ -451,6 +451,10 @@
 #-webkit-web-inspector .styles-section.read-only {
   background: #242729 !important;
 }
+#-webkit-web-inspector .styles-section.read-only,
+#-webkit-web-inspector .styles-section.read-only * {
+  cursor: not-allowed !important;
+}
 #-webkit-web-inspector .styles-section,
 #-webkit-web-inspector .subtitle {
   color: #7C7C7C !important;
