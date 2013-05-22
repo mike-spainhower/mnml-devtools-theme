@@ -445,6 +445,9 @@
   color: #c5c8c6 !important;
   background-color: #000 !important;
 }
+#-webkit-web-inspector .styles-section {
+  background: #1d1f21 !important;
+}
 #-webkit-web-inspector .styles-section.read-only {
   background: #242729 !important;
 }
