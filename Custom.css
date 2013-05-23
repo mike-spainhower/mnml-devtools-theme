@@ -308,6 +308,9 @@
   border-right: 4px solid transparent;
   border-top: 8px solid #666666;
 }
+#-webkit-web-inspector .sidebar-pane .section.expanded {
+  background: #1d1f21;
+}
 #-webkit-web-inspector .sidebar-pane-subtitle {
   right: 5px !important;
   font-size: 11px !important;
