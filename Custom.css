@@ -447,6 +447,9 @@
 #-webkit-web-inspector .network-timing-bar-title {
   color: #ffffff !important;
 }
+#-webkit-web-inspector .resource-headers-view .section.expanded {
+  background: #1d1f21;
+}
 #-webkit-web-inspector .editing,
 #-webkit-web-inspector .editing * {
   color: #c5c8c6 !important;
