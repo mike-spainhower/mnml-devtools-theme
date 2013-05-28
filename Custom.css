@@ -308,6 +308,9 @@
   border-right: 4px solid transparent;
   border-top: 8px solid #666666;
 }
+#-webkit-web-inspector .sidebar-pane .section:not(.expanded) {
+  background: #595f65;
+}
 #-webkit-web-inspector .sidebar-pane .section.expanded {
   background: #1d1f21;
 }
