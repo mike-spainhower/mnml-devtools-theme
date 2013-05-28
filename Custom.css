@@ -314,6 +314,9 @@
 #-webkit-web-inspector .sidebar-pane .section.expanded {
   background: #1d1f21;
 }
+#-webkit-web-inspector ol.breakpoint-list {
+  background: #1d1f21 !important;
+}
 #-webkit-web-inspector .sidebar-pane-subtitle {
   right: 5px !important;
   font-size: 11px !important;
