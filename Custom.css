@@ -552,7 +552,7 @@
   background: #333 !important;
 }
 #-webkit-web-inspector .placard:nth-of-type(odd) {
-  background: #595959 !important;
+  background: #4d4d4d !important;
 }
 #-webkit-web-inspector .placard.selected {
   background-image: -webkit-linear-gradient(#c96666, #6f2727) !important;
