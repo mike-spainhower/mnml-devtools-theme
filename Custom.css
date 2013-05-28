@@ -542,8 +542,11 @@
 #-webkit-web-inspector .styles-element-state-pane {
   background: #242729 !important;
 }
-#-webkit-web-inspector .placard:nth-of-type(2n) {
+#-webkit-web-inspector .placard:nth-of-type(even) {
   background: #333 !important;
+}
+#-webkit-web-inspector .placard:nth-of-type(odd) {
+  background: #595959 !important;
 }
 #-webkit-web-inspector .placard.selected {
   background-image: -webkit-linear-gradient(#c96666, #6f2727) !important;

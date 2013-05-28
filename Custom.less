@@ -742,8 +742,12 @@
       background: @selection !important;
     }
     
-    .placard:nth-of-type(2n) {
+    .placard:nth-of-type(even) {
       background: #333 !important;
+    }
+
+    .placard:nth-of-type(odd) {
+      background: lighten(#333,15%) !important;
     }
     
     .placard.selected {
