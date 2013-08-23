@@ -60,8 +60,29 @@
 @javascript-regexp:         #C96666;
 @javascript-string:         #B5BC67;
 
-// popover
+//code mirror
+@cm-js-default-color:          #FFF;
+@cm-js-atom:                   @javascript-ident;
+@cm-js-attribute:              @javascript-ident;
+@cm-js-builtin:                @javascript-ident;
+@cm-js-comment:                @javascript-comment;
+@cm-js-def:                    #E3584D;
+@cm-js-error:                  @javascript-ident;
+@cm-js-header:                 @javascript-ident;
+@cm-js-hr:                     @javascript-ident;
+@cm-js-keyword:                @javascript-keyword;
+@cm-js-link:                   @javascript-ident;
+@cm-js-meta:                   @javascript-ident;
+@cm-js-number:                 @javascript-number;
+@cm-js-operator:               @javascript-ident;
+@cm-js-property:               @javascript-property-name;
+@cm-js-string:                 @javascript-string;
+@cm-js-string-2:               @javascript-string;
+@cm-js-tag:                    @javascript-ident;
+@cm-js-variable:               @javascript-property-value;
+@cm-js-variable-2:             @javascript-property-value;
 
+// popover
 @popover-text: #FFF;
 @network-timing-bar: grey;
 
@@ -589,7 +610,31 @@
     }
     
     //JavaScript Styles
-    
+
+    .CodeMirror {
+        color: @cm-js-default-color !important;
+
+        .cm-atom {}
+        .cm-attribute {}
+        .cm-builtin {}
+        .cm-comment { color: @cm-js-comment !important; }
+        .cm-def { color: @cm-js-def !important; }
+        .cm-error {}
+        .cm-header {}
+        .cm-hr {}
+        .cm-keyword { color: @cm-js-keyword !important; }
+        .cm-link {}
+        .cm-meta {}
+        .cm-number { color: @cm-js-number !important; }
+        .cm-operator {}
+        .cm-property { color: @cm-js-property !important; }
+        .cm-string { color: @cm-js-string !important; }
+        .cm-string-2 { color: @cm-js-string-2 !important; }
+        .cm-tag {}
+        .cm-variable { color: @cm-js-variable !important; }
+        .cm-variable-2 { color: @cm-js-variable-2 !important; }
+    }
+
     .webkit-line-content,
     .webkit-javascript-ident {
       color: @javascript-ident !important;

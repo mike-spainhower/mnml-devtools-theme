@@ -420,6 +420,36 @@
   color: #b3b3b3 !important;
   text-shadow: none !important;
 }
+#-webkit-web-inspector .CodeMirror {
+  color: #ffffff !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-comment {
+  color: #7c7c7c !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-def {
+  color: #e3584d !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-keyword {
+  color: #db925f !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-number {
+  color: #db925f !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-property {
+  color: #82a1be !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-string {
+  color: #b5bc67 !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-string-2 {
+  color: #b5bc67 !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-variable {
+  color: #c2c3c3 !important;
+}
+#-webkit-web-inspector .CodeMirror .cm-variable-2 {
+  color: #c2c3c3 !important;
+}
 #-webkit-web-inspector .webkit-line-content,
 #-webkit-web-inspector .webkit-javascript-ident {
   color: #ffffff !important;
