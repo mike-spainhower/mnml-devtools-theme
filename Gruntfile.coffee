@@ -25,8 +25,10 @@ module.exports = (grunt) ->
           'less'
           'copy:mac'
         ]
-      win: {}
-      lin: {}
+      win:
+        files: 'Custom.less'
+      lin:
+        files: 'Custom.less'
         
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-copy'
